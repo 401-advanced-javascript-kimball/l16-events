@@ -5,15 +5,11 @@ Create an event driven application that "distributes" the responsibility for log
 ### Author: Jonathan Kimball
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/401-advanced-javascript-kimball/l16-events/pull/1)
+* [travis](https://travis-ci.com/401-advanced-javascript-kimball/l16-events)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
 * [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
 #### `modulename.js`
