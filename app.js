@@ -2,7 +2,15 @@
 
 const fs = require('fs');
 const eventEmitter = require('./event');
+const util = require('util');
 require('./logger');
+
+const writeFileWithPromise = util.promisify(fs.writeFile);
+const readFileWithPromise = util.promisify(fs.readFile);
+
+const onReadDone = eventEmitter.addListener('fs-read-done', (payload) => transform(payload));
+
+funciton 
 
 const alterFile = (file) => {
   fs.readFile( file, (err, data) => {

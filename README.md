@@ -12,8 +12,20 @@ Create an event driven application that "distributes" the responsibility for log
 * [jsdoc](http://xyz.com) (Server assignments)
 
 ### Modules
-#### `modulename.js`
+
+#### `app.js`
+
 ##### Exported Values and Methods
+
+#### `event.js`
+
+##### Exported Values and Methods
+
+#### `logger.js`
+
+##### Exported Values and Methods
+
+
 
 ###### `foo(thing) -> string`
 Usage Notes or examples
